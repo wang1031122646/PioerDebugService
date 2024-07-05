@@ -176,10 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PioerDebugService/PioerDebugService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AMLeaksFinder/AMLeaksFinder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/PioerDebugService/PioerDebugService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/AMLeaksFinder/AMLeaksFinder.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

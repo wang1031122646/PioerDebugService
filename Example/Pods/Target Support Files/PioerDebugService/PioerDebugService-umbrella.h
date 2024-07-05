@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PioerDebugHelper.h"
 
 FOUNDATION_EXPORT double PioerDebugServiceVersionNumber;
 FOUNDATION_EXPORT const unsigned char PioerDebugServiceVersionString[];

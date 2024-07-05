@@ -1,16 +1,27 @@
 PODS:
-  - PioerDebugService (0.1.0)
+  - AMLeaksFinder (2.2.8)
+  - CocoaDebug (1.7.2)
+  - PioerDebugService (0.1.0):
+    - AMLeaksFinder
+    - CocoaDebug
 
 DEPENDENCIES:
   - PioerDebugService (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AMLeaksFinder
+    - CocoaDebug
 
 EXTERNAL SOURCES:
   PioerDebugService:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PioerDebugService: 2f5e9c2969aebf10b32172aa677d615039c39735
+  AMLeaksFinder: c06ab15486dff283e49943329c77497d11f0d06a
+  CocoaDebug: 61cf93ada6ce8f3407507dc01f9b874d91ac1d5c
+  PioerDebugService: 0dc0df9c910af37f701696a209287dc4ff4df465
 
-PODFILE CHECKSUM: f85f6fd2df415949b4113014d125c72fa3a039f1
+PODFILE CHECKSUM: 9ee55661ed2c37a7225967e2d4e1fc48563d049c
 
 COCOAPODS: 1.15.2
