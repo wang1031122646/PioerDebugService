@@ -1,0 +1,16 @@
+PODS:
+  - PioerDebugService (0.1.0)
+
+DEPENDENCIES:
+  - PioerDebugService (from `../`)
+
+EXTERNAL SOURCES:
+  PioerDebugService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PioerDebugService: 2f5e9c2969aebf10b32172aa677d615039c39735
+
+PODFILE CHECKSUM: f85f6fd2df415949b4113014d125c72fa3a039f1
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module PioerDebugService {
+  umbrella header "PioerDebugService-umbrella.h"
+
+  export *
+  module * { export * }
+}
