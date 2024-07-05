@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/王wang1031122646/PioerDebugService'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '王宁' => 'wangning@fuya.live' }
+  s.author           = { '王宁1' => 'wangning@fuya.live' }
   s.source           = { :git => 'https://github.com/wang1031122646/PioerDebugService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
