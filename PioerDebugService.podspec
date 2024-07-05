@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://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@github.com/wang1031122646/PioerDebugService'
+  s.homepage         = 'https://github.com/王wang1031122646/PioerDebugService'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '王宁' => 'wangning@fuya.live' }
-  s.source           = { :git => 'https://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@github.com/wang1031122646/PioerDebugService.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wang1031122646/PioerDebugService.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
