@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PioerDebugService'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PioerDebugService.'
+  s.summary          = 'PioerDebugService link Pioer'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/王wang1031122646/PioerDebugService'
+  s.homepage         = 'https://github.com/wang1031122646/PioerDebugService'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '王宁1' => 'wangning@fuya.live' }
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
-
+  s.swift_version = '5.0'
   s.source_files = 'PioerDebugService/Classes/**/*'
   
   # s.resource_bundles = {
